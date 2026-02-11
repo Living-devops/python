@@ -1,0 +1,87 @@
+## QUESTIONS
+EASY
+
+### lists
+
+1. create an empty list called fruits  
+2. add "apple", "banana", "cherry" to the list fruits  
+3. print the second item of the list fruits  
+4. change the first item of fruits to "mango"  
+5. add "orange" at the end of the list fruits  
+6. remove "banana" from the list fruits  
+7. print the length of the list fruits  
+8. sort the list fruits in alphabetical order  
+9. create a new list called numbers = [5, 12, 3, 8, 1] and print only numbers greater than 4  
+10. make a list of 5 city names, then reverse it and print the result  
+
+### tuples
+
+1. create a tuple called colors with 3 color names  
+2. print the last item of the tuple colors  
+3. try to change the first item of the tuple colors (write what happens)  
+4. create a tuple with only one item: number 100  
+5. create a tuple called days with 7 day names  
+6. print how many items are in the tuple days  
+7. check if "sunday" is inside the tuple days  
+8. convert the tuple days into a list and print it  
+9. create two tuples: a = (1,2,3) and b = (4,5). join them into one tuple  
+10. unpack the tuple (10, 20, 30) into three variables x, y, z and print them  
+
+### sets
+1. create an empty set called animals  
+2. add "cat", "dog", "bird" to the set animals  
+3. try to add "cat" again to the set animals (see what happens)  
+4. remove "dog" from the set animals  
+5. create set1 = {1,2,3,4} and set2 = {3,4,5,6}. print their union  
+6. print the common items between set1 and set2 (intersection)  
+7. print items that are in set1 but not in set2 (difference)  
+8. check if 5 is inside the set animals  
+9. create a set from this list: [10, 20, 10, 30, 20, 40]  
+10. clear all items from a set called numbers and print it  
+
+### dictionaries
+
+1. create an empty dictionary called student  
+2. add these keys and values: name → "alex", age → 20, city → "london"  
+3. print the value of key "name" from student  
+4. change the value of "age" to 21  
+5. add a new key "grade" with value "a"  
+6. remove the key "city" from the dictionary  
+7. print all keys of the dictionary student  
+8. print all values of the dictionary student  
+9. check if key "grade" exists in student  
+10. create this dictionary: scores = {"math": 85, "science": 92, "english": 78}. print the subject with highest score  
+
+
+intermediate practice
+
+### lists
+
+1. create a list called temperatures with 8 random numbers between 20 and 40  
+2. find and print the highest and lowest value from the list temperatures  
+3. create a new list that contains only even numbers from [3,8,12,7,15,20,4,9]  
+4. insert number 100 at index 3 in a list called scores = [45, 67, 89, 23, 56]  
+5. count how many times the number 7 appears in this list: [7,2,7,9,7,3,1,7,8]  
+
+### tuples
+
+1. create a tuple containing 5 different data types (int, float, str, bool, None)  
+2. find the index of value 50 in this tuple: numbers = (10, 30, 50, 70, 90, 50)  
+3. count how many times "python" appears in: langs = ("java","python","c++","python","rust","python")  
+4. create a tuple from a list and then try to add one more item (show the error)  
+5. unpack this tuple into 4 variables: info = ("laptop", 16, 512, "windows")  
+
+### sets
+
+1. create two sets: a = {1,2,3,4,5} and b = {4,5,6,7,8}. find symmetric difference  
+2. add all items from list [10,20,10,30,20] to an empty set  
+3. remove items that exist in both sets: x = {2,4,6,8} and y = {1,2,3,4,5}  
+4. check if set small = {3,6,9} is a subset of big = {1,2,3,4,5,6,7,8,9}  
+5. create a set of all unique vowels from this string: "beautiful python code"  
+
+### dictionaries
+1. create dictionary person with keys name, age, city, skills (skills = list of 3 strings)  
+2. print all key-value pairs using loop (for key, value in ... )  
+3. get value of "salary" key, return 0 if key doesn't exist  
+4. increase value of "score" by 15 if it exists, otherwise set it to 50  
+5. remove all items where value is less than 60 from marks = {"math":45, "sci":82, "eng":55, "art":90}  
