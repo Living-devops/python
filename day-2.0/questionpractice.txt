@@ -1,6 +1,5 @@
 ## QUESTIONS
-EASY
-
+easy
 ### lists
 
 1. create an empty list called fruits  
@@ -53,7 +52,7 @@ EASY
 10. create this dictionary: scores = {"math": 85, "science": 92, "english": 78}. print the subject with highest score  
 
 
-intermediate practice
+Intermediate
 
 ### lists
 

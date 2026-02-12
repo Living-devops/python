@@ -1,0 +1,55 @@
+QUESTION PRACTICE
+
+
+### functions
+
+
+1. create a function called greet that prints "hello everyone" when called
+
+2. create a function called add_two that takes two numbers and prints their sum
+
+3. create a function called say_name that takes one parameter (name) and prints "hi name!"
+
+4. create a function called is_even that takes a number and returns True if even, False if odd
+
+5. create a function called square that takes a number and returns its square
+
+6. create a function called max_of_two that takes two numbers and returns the bigger one
+
+7. create a function called calculate_total that takes three numbers (price, quantity, discount)  
+   discount is in percent (example 10 for 10%)  
+   return final amount after discount
+
+8. create a function called count_vowels that takes a string and returns how many vowels (a e i o u) it has  
+   (lowercase only)
+
+9. create a function called reverse_string that takes a string and returns it backwards  
+   (do not use [::-1], use loop)
+
+10. create a function called factorial that takes a positive integer n and returns n!  
+    (example: 5! = 120)  
+    use recursion or loop (your choice)
+
+11. create a function called find_common that takes two lists and returns a new list with items that appear in both lists  
+    (do not use set, use loop)
+
+12. create a function called is_prime that takes a number and returns True if it is prime, False otherwise  
+    (prime = only divisible by 1 and itself, numbers > 1)
+
+13. create a function called fibonacci that takes n and prints first n fibonacci numbers  
+    (0, 1, 1, 2, 3, 5, 8, ...)
+Try to write each function with:
+- proper def line
+- good parameter names
+- return when needed
+- some test calls below the function
+# example format you can follow:
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+print(is_even(10))   # True
+print(is_even(7))    # False
+
+
