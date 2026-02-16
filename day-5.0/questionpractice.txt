@@ -1,0 +1,38 @@
+File Handling Practice Questions
+
+1. Ask the user for their name and save a welcome message in welcome_message.txt.
+
+2. Read and print only the first 5 lines of story.txt.
+
+3. Append a task with today’s date into tasks.txt.
+
+4. Count the total number of lines in article.txt.
+
+5. Copy content from important.txt to important_backup.txt.
+
+6. Replace the word "Delhi" with "Mumbai" in travel.txt and save to travel_updated.txt.
+
+7. Print all lines of poem.txt in reverse order.
+
+8. Create a word frequency dictionary from blog.txt.
+
+9. Merge part1.txt, part2.txt, and part3.txt into full_story.txt.
+
+10. Split book.txt into separate files whenever a line starts with "Chapter ".
+
+11. Safely read config.ini using try-except and handle errors.
+
+12. Log user actions with timestamp into app_log.txt.
+
+13. Copy photo.jpg in binary mode and create photo_copy.jpg.
+
+14. Read students.csv and print formatted student details.
+
+15. Save settings into settings.json and load them back.
+
+Mini Project
+
+16. Create a simple contact book program:
+- Add contact
+- Show all contacts
+- Search contact
