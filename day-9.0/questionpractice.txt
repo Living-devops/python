@@ -1,0 +1,55 @@
+QUESTION PRACTICE
+
+(pandas + numpy + matplotlib)
+
+1. create a pandas dataframe with columns: name, age, salary.  
+   use numpy to fill salary with random numbers between 30000 and 120000.  
+   plot a bar chart (matplotlib) of average salary.
+
+2. make a pandas series with 100 random numbers (numpy normal distribution, mean=50, std=15).  
+   use matplotlib histogram to show the distribution.
+
+3. load any small csv (or make one) with date column.  
+   convert date to datetime.  
+   plot line chart of some value over time using matplotlib.
+
+(pandas manipulation + visualization)
+
+4. create dataframe with columns: city, sales, month.  
+   group by city and month, get sum of sales.  
+   use seaborn lineplot to show sales trend per city.
+
+5. make dataframe with temperature and humidity (numpy random).  
+   create new column "comfort" = 0.7*temperature + 0.3*humidity.  
+   use seaborn scatterplot (hue by comfort > 25).
+
+6. take any dataframe, filter rows where one column > average.  
+   use seaborn boxplot to compare that column by another category.
+
+(seaborn + pandas tricks)
+
+7. use seaborn built-in "tips" dataset.  
+   make violin plot of total_bill by day, split by smoker.  
+   add title and change palette to "muted".
+
+8. use seaborn "iris" dataset.  
+   make pairplot with hue="species".  
+   save the figure as png.
+
+9. create dataframe with sales by product and region.  
+   use pandas pivot_table to make summary table.  
+   show it as seaborn heatmap with annotations.
+
+10. generate numpy 2d array (random 10×10).  
+    turn it into pandas dataframe.  
+    plot seaborn heatmap with coolwarm cmap and numbers inside.
+
+real-world style
+
+11. make dataframe with date, sales, city.  
+    resample sales to weekly sum (pandas).  
+    plot seaborn lineplot of weekly sales, hue by city.
+
+12. create random data: age, income, spending score (numpy).  
+    use seaborn regplot to show relationship between age and income.  
+    add scatter points with hue=spending score.

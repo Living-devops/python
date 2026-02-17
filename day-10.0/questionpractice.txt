@@ -1,0 +1,60 @@
+QUESTION PRACTICE
+
+
+### create table & basic insert
+
+1. create a table called friends with columns: id (auto), name (text), phone (text), city (text)  
+   insert 4 friends (use executemany)  
+   print all rows
+
+2. create table books with: id, title, author, year, price (real)  
+   insert 5 books  
+   select all books where price > 500
+
+
+### select & where
+
+3. create table students with name, age, marks, city  
+   insert 6 students (at least 2 from delhi, 2 from mumbai)  
+   select name and marks where city = 'delhi'
+
+4. in students table, select name where marks >= 80 order by marks descending
+
+5. select name, age from students where age between 18 and 22
+
+
+### update & delete
+
+6. in students table, update marks of name 'riya' to 95  
+   print all rows after update
+
+7. delete all students where marks < 50  
+   print remaining rows
+
+8. increase marks by 5 for everyone in mumbai
+
+
+### aggregate & group by
+
+9. in students table, find average marks overall
+
+10. find average marks per city (group by city)
+
+11. count how many students per city
+
+12. find highest marks and the name of student who got it
+
+
+### join (two tables)
+
+13. create table courses with: student_name (text), subject, grade  
+   insert 6 rows (some names match students table)  
+   join students and courses on name to show name, age, subject, grade
+
+14. in same tables, show only students from delhi with their grades
+
+15. create table expenses with: id, date (text), amount (real), category (text)  
+   insert 8 expenses (use different dates like '2026-02-01')  
+   find total expense per category  
+   find total expense in february 2026 (use like '2026-02%')
+

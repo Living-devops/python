@@ -1,0 +1,65 @@
+QUESTION PRACTICE
+
+
+1. set up basic logging to a file `basic.log` with level INFO.  
+   write one debug, one info, one warning, one error message.  
+   open the file and see which lines actually appeared.
+
+2. create a logger named "shop" with level DEBUG.  
+   add one file handler "shop.log" and one stream handler (console).  
+   log messages at debug, info, warning, error levels.  
+   see what shows in console vs file.
+
+3. make a logger that only shows ERROR and CRITICAL in console,  
+   but saves DEBUG and INFO to file `detailed.log`.  
+   test with 5 different log calls.
+
+4. create one logger that writes:  
+   - all messages to `all_logs.log`  
+   - only WARNING and higher to `warnings.log`  
+   - INFO and higher to console  
+   log 6 messages at different levels and check both files + console.
+
+5. set up a logger with three handlers:  
+   - console (INFO+)  
+   - `debug.log` (DEBUG+)  
+   - `errors.log` (ERROR+)  
+   add a custom format with logger name and thread name.  
+   log debug, info, error messages.
+
+6. make a logger that logs to console (INFO) and to two files:  
+   `info.log` (INFO only)  
+   `error.log` (ERROR+)  
+   test by logging info, warning, error.
+
+7. write a function `divide(a, b)` that logs:  
+   - debug: entering with a and b  
+   - info: result if success  
+   - error: division by zero  
+   call it twice (valid + zero) and check log file.
+
+8. create a decorator `log_call` that logs:  
+   function name + arguments before call  
+   result after call  
+   apply it to a simple function `add(a, b)` and call it.
+
+9. make a logger for a fake "app" with rotating file handler (new file every 5 seconds or 100 bytes – for testing).  
+   log 10 messages quickly and see if it creates multiple files.
+
+10. create two separate loggers: "ui" and "database".  
+    give "ui" console handler (INFO)  
+    give "database" file handler `db.log` (DEBUG)  
+    log from both and see separation.
+
+11. set up logging with:  
+    console (WARNING+)  
+    file `app.log` (INFO+)  
+    another file `critical.log` (CRITICAL only)  
+    log messages so each place gets different content.
+
+12. write a small script that:  
+    logs start of program (INFO)  
+    tries to open a non-existing file → catch exception and log ERROR with exception info  
+    logs end of program (INFO)  
+    use `exc_info=True` in error log.
+
